@@ -1,0 +1,100 @@
+body{
+    margin: 20px;
+    background-color: white;
+}
+
+#optionsDiv{
+    display: none;
+}
+
+#enterRegionDiv{
+    /*background-color: tan;*/
+    height: 230px;
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    /*border: 1px solid red;*/
+    border: 1px dotted #3399FF;
+    border-radius: 0.5em;
+}
+
+#parentChartContainer{
+    display: block;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#chartContainerFloat{
+    width: 100%;
+}
+
+#second {
+    float:left;
+    width:49%;
+    margin-right:10px;
+}
+#third {
+    float:right;
+    width:49%;
+}
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+
+.chartContainer1{
+    width:100%;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    padding:5px;
+    height: 300px;
+    /*border: 1px solid red;*/
+    border-radius: 0.5em;
+    border: 1px dotted #3399FF;
+}
+
+.chartContainer2{
+    width:100%;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    padding:5px;
+    height: 300px;
+    /*border: 1px solid red;*/
+    border-radius: 0.5em;
+    border: 1px dotted #3399FF;
+}
+
+#container{
+   width: 100%;
+    height: 600px;
+
+}
+
+#mainChart{
+    /*display: none;*/
+}
+
+#chrNr{
+    font-size:12pt;
+     height:30px;
+     width:200px;
+}
+
+p{
+    font-size: 12px;
+}
+
+
+#loading {
+   background-color: #fff;
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   z-index: 999;
+   text-align:center;
+}
